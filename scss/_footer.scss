@@ -1,0 +1,38 @@
+#footerarea{
+background: $bkColor;
+position: relative;
+margin-top: 30px;
+.arrowtop{
+ position: absolute;
+ bottom: 10px;
+ right: 10px;
+ cursor: pointer;
+ i{
+  width: 40px;
+  height: 40px;
+  background: $pColor;
+  color: $whiteColor;
+  padding-top: 10px;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s;
+  &:hover{
+   background: $SColor;
+  }
+ }
+}
+.logoarea{
+ width: 200px;
+ margin:0 auto 20px;
+}
+.socialarea ul{
+ text-align: center;
+ margin-bottom: 20px;
+}
+.copyright{
+ color: $whiteColor;
+ font-size: 13px;
+ text-align: center;
+}
+}

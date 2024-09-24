@@ -1,0 +1,46 @@
+*,*::after,*::before{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+color: #262626;
+font-size: 15px;
+font-family: 'Poppins', sans-serif;
+list-style: 1.5rem;
+
+}
+
+//utilities
+@import "utilities";
+
+//header area style
+
+@import "header";
+
+//header area style
+
+@import "hero";
+
+//about area style
+
+@import "aboutarea";
+
+//services
+@import "services";
+
+//projects
+@import "project";
+
+//blog
+@import "blog";
+
+//Contact
+@import "Contact";
+
+//footer
+@import "footer";
+
+//responive-last-of-all
+@import "responsive";

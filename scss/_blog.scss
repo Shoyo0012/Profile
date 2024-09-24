@@ -1,0 +1,24 @@
+#blogarea{
+ background: $bgColor;
+margin-top: 100px;
+ .container4{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .childblog{
+  flex-basis: 32%;
+  img{
+   display: block;
+  }
+  .bloginfo{
+   background: $whiteColor;
+   padding: 25px;
+   h4{
+   color: $bkColor;
+   font-size: 25px;
+   text-transform: uppercase;
+   }
+  }
+ }
+}

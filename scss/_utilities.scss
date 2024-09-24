@@ -1,0 +1,61 @@
+// color
+$pColor:#eb7966;
+$SColor:#f4c9c2;
+$bgColor:#f9ebea;
+$whiteColor:#fff;
+$bkColor:#11184f;
+
+$fontWSM:400;
+$fontWMD:600;
+$fontWXL:800;
+
+
+
+
+body, p{
+font-weight: $fontWSM;
+font-size: 16px;
+scroll-behavior: smooth;
+}
+.container{
+ width: 80%;
+ margin: 0 auto;
+}
+
+p{
+margin: 0 0 15px;
+}
+a{
+ transition: 0.5s;
+ text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+font-weight: $fontWMD;
+margin: 0 0 15px;
+line-height: 1.2em;
+}
+img{
+max-width: 100%;
+height: auto;
+}
+
+
+
+
+
+
+//paddings
+$paddingSM:10px 0;
+
+//responsive
+$small:200px;
+$medium:867px;
+.container1{
+width: 100%;
+margin: 0 auto;
+@media only screen and (min-width:$small) and (max-width:$medium) {
+
+}
+
+}
+

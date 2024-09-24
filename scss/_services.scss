@@ -1,0 +1,41 @@
+
+.container3{
+ background: $bgColor;
+ height: 540px;
+ border-radius: 10px;
+.co3inner{
+display: flex;
+justify-content:space-between;
+ .innerchild{
+  padding: 40px;
+  background: $whiteColor;
+  flex-basis: 32%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+  transition: 0.6s;
+  cursor: pointer;
+  h4{
+   color: $bkColor;
+   font-size: 25px;
+   font-weight: $fontWXL;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+  }
+  i{
+   color: $pColor;
+   font-size: 45px;
+   margin-bottom: 20px;
+  }
+  &:hover{
+   background: $bkColor;
+   h4{
+    color: $whiteColor;
+
+   }
+  p{
+   color: $whiteColor;
+  }
+  }
+ }
+}
+}
